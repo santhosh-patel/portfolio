@@ -430,6 +430,48 @@ p {
 	border: 7px solid crimson;
 	z-index: -1;
 }
+#skills{
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 90%;
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-top: 10px;
+	background-color: #4617932c;
+}
+#skills h1{
+	text-align: center;
+	font-size: 5rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#skills h2{
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 500;
+	margin-top: 10px;
+}
+#skills p{
+	font-size: 1.9rem;
+	font-weight: 500;
+	margin-top: 10px;
+	text-align: stretch;
+	word-spacing: 100px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #d8dfe5;
+	padding: 10px;
+  }
+  .grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(246, 238, 238, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+  }
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
@@ -437,7 +479,6 @@ p {
 	width: 90%;
 }
 #contact .contact-items {
-	/* max-width: 400px; */
 	width: 100%;
 }
 #contact .contact-item {
