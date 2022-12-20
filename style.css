@@ -104,7 +104,7 @@ p {
 	position: absolute;
 	background-color: rgb(31, 30, 30);
 	width: 100vw;
-	height: 100vh;
+	height: 75vh;
 	left: 100%;
 	top: 0;
 	display: flex;
